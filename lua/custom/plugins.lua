@@ -19,5 +19,9 @@ local plugins = {
     },
   },
 
+  -- Nabla
+  {
+    "jbyuki/nabla.nvim"
+  },
 }
 return plugins
