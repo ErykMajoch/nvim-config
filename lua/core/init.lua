@@ -42,6 +42,11 @@ opt.termguicolors = true
 opt.timeoutlen = 400
 opt.undofile = true
 
+
+-- Enable spell-checking
+opt.spelllang = 'en_gb'
+opt.spell = true
+
 -- interval for writing swap file to disk, also used by gitsigns
 opt.updatetime = 250
 
