@@ -27,7 +27,8 @@ local plugins = {
 
   -- follow-md-link
   {
-    "jghauser/follow-md-links.nvim"
+    "jghauser/follow-md-links.nvim",
+    lazy = false
   },
 }
 return plugins
