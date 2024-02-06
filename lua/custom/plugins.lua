@@ -14,7 +14,8 @@ local plugins = {
     opts = {
       ensure_installed = {
         "marksman",
-        "ltex-ls"
+        "ltex-ls",
+        "clangd"
       },
     },
   },
