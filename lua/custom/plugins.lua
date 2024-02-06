@@ -10,7 +10,7 @@ local plugins = {
 
   -- Mason
   {
-    "williamboma/mason.nvim",
+    "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
         "marksman",
@@ -23,6 +23,11 @@ local plugins = {
   -- Nabla
   {
     "jbyuki/nabla.nvim"
+  },
+
+  -- follow-md-link
+  {
+    "jghauser/follow-md-links.nvim"
   },
 }
 return plugins
