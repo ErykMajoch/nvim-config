@@ -56,11 +56,5 @@ local plugins = {
     "Civitasv/cmake-tools.nvim",
   },
 
-  --  cmake4vim
-  {
-    lazy = false,
-    "ilyachur/cmake4vim"
-  },
-
 }
 return plugins
